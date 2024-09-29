@@ -8,31 +8,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Аптека Здоров'ячко</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <script src="js/myscript.js"></script>
-<body style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 14px; padding: 50px;">
-    <header> 
-<p align="center">Здоров'ячко</p>
-<a href="./index.html">Головна</a>
-<a href="./about.html">Про компанію</a>
-<a href="./news.html">Новини</a> 
-
-    </header>
-    <h1 align="center">Сторінка автора Web-сайту Здоров'ячко</h1>
-    <h2 align="center">Ласкаво просимо на мою домашню сторінку!</h2>
-    <p>Ласкаво прошу вас до перегляду цієї сторінки. Тут ви зможете побачити інформацію про мої захоплення, мою біографію, моїх друзів, роботу та родину.</p>
-    <hr>
-    <p align="center"><u>Про себе</u></p>
-    <p>Мене звати <i> Павлова Поліна Віталіївна</i>, мені 18 років та проживаю я у місті Чернівці</p>
-    <br>
-    <p>Мої інтереси:</p>
-    <div style="background-color: beige; width: 50%;">
-    <i>Читання різного роду літератури</i> <br> <br>
-    <i>Саморозвиток та самодисципліна</i> <br> <br>
-    <i>Пізнання всього нового та знайомтсво з людьми</i> <br> <br>
+<body>
+    <div class="header-section">
+     <header> 
+        <p class="logo-name" align="center">Здоров'ячко</p>
+        <a href="./index.html">Головна</a>
+        <a href="./about.html">Про компанію</a>
+        <a href="./news.html">Новини</a>
+      </header>
+      <div class="image-header">
+        <img src="./images/image_1.png" alt="pharmacy aesthetic" title="pharmacy">
+        <img src="./images/image_2.png" alt="pharmacy aesthetic" title="pharmacy">
+        <img src="./images/image_4.png" alt="pharmacy aesthetic" title="pharmacy">
+      </div>
+      <div class="header-bio">
+      <h1 align="center">Сторінка автора Web-сайту Здоров'ячко</h1>
+      <h2 align="center">Ласкаво просимо на мою домашню сторінку!</h2>
+      <p>Ласкаво прошу вас до перегляду цієї сторінки. Тут ви зможете <b>побачити інформацію</b>про мої захоплення, мою біографію, мої роботи, моїх друзів, роботу та родину.</p>
+    </div>
+    </div>
+  
+  <hr>
+  <div class="body_section">
+  <div class="about-section">
+    <span>Про себе</span>
+    <p class="bio-pavlova">Поліна, 18-річна власниця компанії PAVLOVA Group,
+       активно розвивається в сфері веб-розробки. Її компанія спеціалізується на
+        створенні сучасних та функціональних веб-сайтів для малого та середнього бізнесу.
+         Незважаючи на свій молодий вік, Поліна вже встигла зарекомендувати себе як перспективна
+          підприємниця з креативним підходом до розробки цифрових рішень. Вона впевнено веде свою команду,
+           поєднуючи технічні знання та бізнес-стратегію. Її головною метою є допомога клієнтам у створенні
+            якісної онлайн-присутності, що виділяється на ринку.</p>
+    <p>Цінності нашої компанії:</p>
+    <div class="interests">
+      <ul class="list">
+      <li>Інновації та креативність: Компанія прагне створювати унікальні веб-рішення, що відображають індивідуальність кожного клієнта. Постійний пошук нових підходів та нестандартних ідей є основою розвитку бізнесу.</li>
+        <li> Клієнтоорієнтованість: У центрі діяльності компанії – потреби клієнта. PAVLOVA Group створює рішення, які максимально відповідають запитам замовників, допомагаючи їм розвивати свій бізнес та підвищувати ефективність онлайн-присутності</li>  
+      <li>Якість та професіоналізм: Всі проекти виконуються на найвищому рівні, з увагою до деталей та сучасних технологій. Поліна та її команда ставлять якість продукту на перше місце, щоб клієнти отримували надійні та естетично привабливі сайти.</li> 
+    </ul>
+    </div>
+  <hr>
+   </div>
+  <div class="registration">
+  <div class="registration-container">
+    <h2>Підпишись на нашу розсилку та дізнавайся першим про надходження товарів!</h2>
+    <form action="#" method="POST" class="registration-form">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+        
+        <label for="email">Електронна адреса:</label>
+        <input type="email" id="email" name="email" placeholder="Ваш email" required>
+        
+        <label for="phone">Номер телефону:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Ваш номер телефону" required>
+        
+        <label for="city">Місто проживання:</label>
+        <input type="text" id="city" name="city" placeholder="Ваше місто" required>
+        
+        <button type="submit">Підписатися</button>
+    </form>
 </div>
-<small><i>**Також у мене є певні мінуси, про які я вам говорити не буду</i></small>ї
-<br> <br> <br>
-<a href="./about.html">Перейти до сторінки про компанію</a>
+</div>
+</div>
+<footer>
+<div class="footer-container">
+  <div class="contacts">
+    <p>Наша адреса:
+    <address id="contact" title="Our address">
+      вулиця Головна 111, м. Чернівці, Україна 
+    </address>
+  </p>
+    <p class="phone-numbers">Контакті номери телефону
+    <em class="important" lang="ua">+380667074222</em>
+    <em class="important" lang="ua">+380667074220</em>
+   </p>
+   <p>
+    Електронна пошта: 
+    <em class="important" lang="ua">info@zdorovyachko.com</em>
+   </p>
+  </div>
+  <div class="author">
+    <p>Created by Pavlova GROUP</p>
+  </div>
+</div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 14px; 
+    margin: 0 auto;
+    background-color: rgb(232, 229, 228);
+}
+.logo-name{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-section header{
+    display: flex;
+    padding: 5px 10px;
+    background-color: rgb(105, 105, 105);
+}
+.header-section p{
+   padding-left: 20px;
+}
+.header-section a{
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+a:link{
+   color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:visited{
+    color: white;
+}
+.header_bio{
+    margin: 5px 0;
+    padding: 30px 0;
+    line-height: 200%;
+    background-color: rgb(36, 52, 36);
+    color: rgb(203, 203, 203);
+}
+.body_section{
+    padding: 20px;
+}
+.promo-section{
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgb(173, 171, 171);
+}
+.footer-container{
+    display: block;
+    background-color: rgb(105, 105, 105);
+    color: whitesmoke;
+    padding: 20px 15px;
+}
+
+.author p{
+    font-weight: 500;
+    font-size: 24px;
+}
